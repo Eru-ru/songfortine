@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e81754ee21.js" crossorigin="anonymous"></script>
+    <title>Music Box</title>
+</head>
+<body id="backg">
+
+    <div class="music-container play" id="background">
+        <div class="music-info">
+            <h4 id="title">Voodoo Doll</h4>
+            <h4 id="names">5 Seconds of Summer</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+
+            <audio src="music/Voodoo Doll.mp3" id="audio"></audio>
+
+            <div class="img-container">
+                <img src="images/Voodoo Doll.jpg" alt="music-cover" id="cover" />
+            </div>
+
+            <div class="navigation">
+                <button id="prev" class="action-btn">
+                    <i class="fa-solid fa-angles-left" id="btn"></i>
+                </button>
+                <button id="play" class="action-btn action-btn-big">
+                    <i class="fa-solid fa-play" id="btn"></i>
+                </button>
+                <button id="next" class="action-btn">
+                    <i class="fa-solid fa-angles-right" id="btn"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
